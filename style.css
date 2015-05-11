@@ -1,0 +1,21 @@
+/* style.css is the standard name for a project's main css file, which determines how things look (not what they actually do) */
+
+/* these next few lines determine the style for any text on our website that is tagged "h1" -- that is, Header 1 -- in our html files */
+
+h1 {
+  color: #4B4B4D;
+  font-size: 40px;
+  /* the browser will try to use the first font name here if possible, then (if it can't access that for some reason) it will try to use the second, and so on and so on. In most cases it should be able to use the first font listed, but we give "backups" just in case. */ 
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* this determines the style for any text on our website that is tagged in the CLASS "basic". In the html, this would look something like <p class="basic">. 
+When referencing a class in css we need to use a period before its name, i.e. .class_name. */
+
+.basic {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Raleway:200", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
