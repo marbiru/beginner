@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- this links us to a stylesheet from "Pure CSS", a minimal but pretty   -->
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:200">
+    <!-- this links us to our own stylesheet, where we can define any extra styles that we need (or over-ride Pure CSS's styles if we want to) -->
   <link rel="stylesheet" href="style.css">
+  	<!-- this links us to one particular font we want to use for this project -- GoogleFonts has plenty of interesting fonts we can use -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:200">
+  
 </head>
 <body>
 
 <h1> Project Title </h1>
 
-<button id="meep_button" class="pure-button">Dummy Button</button>
+<button id="action_button" class="pure-button">Dummy Button</button>
 
 <p id="output" class="basic"></p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="core.js"></script>
+<!-- this allows us to use jQuery, a very popular javascript library which makes things easier and more convenient -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- this pulls in our own javascript file, where we will write any javascript-based parts of our code --> 
+<script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
